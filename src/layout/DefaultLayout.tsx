@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
-import Header from "../components/Header";
-import SideBar from "../components/SideBar";
+import Header from "components/Header";
+import SideBar from "components/SideBar";
 
 interface Props {
-  children: ReactNode
+  children: ReactNode;
 }
 
 const DefaultLayout: React.FC<Props> = ({ children }) => {
@@ -20,4 +20,4 @@ const DefaultLayout: React.FC<Props> = ({ children }) => {
   );
 };
 
-export default DefaultLayout;3
+export default DefaultLayout;
