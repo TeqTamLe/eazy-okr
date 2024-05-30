@@ -31,8 +31,8 @@
   "include": [
     "src",
     "vite.config.ts",
-    "tailwind.config.ts", //(IF YOU USE TAILWINDCSS)
-    "postcss.config.js" //(IF YOU USE TAILWINDCSS)
+    "tailwind.config.ts",
+    "postcss.config.js"
   ],
-  "references": [{ "path": "./tsconfig.node.json" }],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,11 +1,7 @@
-import { FC } from "react";
+import type { FC } from "react";
 
 const Contact: FC = () => {
-  return (
-    <>
-      contact
-    </>
-  );
+  return <>contact</>;
 };
 
 export default Contact;

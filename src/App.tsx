@@ -1,8 +1,9 @@
-import { FC } from "react";
+import type { FC } from "react";
 import { Route, Routes } from "react-router-dom";
+
 import DefaultLayout from "./layout/DefaultLayout";
-import Home from "./pages";
 import Contact from "./pages/contact";
+import Home from "./pages";
 
 const App: FC = () => {
   return (
